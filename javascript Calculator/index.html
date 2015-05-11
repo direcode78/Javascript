@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+       
+    <div class="container">
+        <input type="text" id="display">     
+
+        <div class="button-container">
+            <input type="button" value="1" id="but" onclick="clicked(1)">
+            <input type="button" value="2" id="but" onclick="clicked(2)">
+            <input type="button" value="3" id="but" class="last" onclick="clicked(3)">
+            <input type="button" value="4" id="but" onclick="clicked(4)">
+            <input type="button" value="5" id="but" onclick="clicked(5)">
+            <input type="button" value="6" id="but" class="last" onclick="clicked(6)">
+            <input type="button" value="7" id="but" onclick="clicked(7)">
+            <input type="button" value="8" id="but" onclick="clicked(8)">
+            <input type="button" value="9" id="but" onclick="clicked(9)">
+            <input type="button" value="0" id="but" onclick="clicked(0)">
+            <input type="button" value="+" id="plus" onclick="operatorVal('+')">
+            <input type="button" value="-" id="minus" onclick="operatorVal('-')">
+            <input type="button" value="*" id="multi" onclick="operatorVal('*')">
+            <input type="button" value="/" id="divide" onclick="operatorVal('/')">
+            <input type="button" value="=" id="calculate" onclick="calculate()">
+            <input type="button" value="C" id="clear" onclick="clearDisplay()">
+
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
